@@ -1,6 +1,0 @@
-<!-- This is a placeholder for favicon.ico - In a real implementation, this would be a binary ICO file -->
-<!-- For now, we'll use SVG format which modern browsers support -->
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <rect width="32" height="32" fill="#000"/>
-  <text x="16" y="20" font-family="monospace" font-size="16" fill="#00ff41" text-anchor="middle">Z</text>
-</svg>
