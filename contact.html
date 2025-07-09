@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - ZehraSec</title>
     <meta name="description" content="Get in touch with ZehraSec's cybersecurity experts. Contact us for security assessments, custom solutions, training, and consultation.">
+    <meta name="keywords" content="contact cybersecurity company, security consultation, penetration testing quote, ZehraSec contact">
     <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <canvas id="matrix-bg"></canvas>
+    <div class="matrix-bg" id="matrix-bg"></div>
     
     <!-- Navigation -->
     <nav class="navbar">
@@ -20,12 +23,36 @@
                 <span>ZehraSec</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="penetration-testing.html" class="nav-link">VAPT</a></li>
-                <li><a href="custom-software.html" class="nav-link">Software</a></li>
-                <li><a href="training.html" class="nav-link">Training</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                        <li><a href="custom-software.html">Custom Software</a></li>
+                        <li><a href="security-audits.html">Security Audits</a></li>
+                        <li><a href="training.html">Training</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Solutions <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                        <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                        <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                        <li><a href="government-sector.html">Government Sector</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Company <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
