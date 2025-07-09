@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Audits & Compliance - ZehraSec</title>
+    <meta name="description" content="Comprehensive security audits and compliance services including ISO 27001, GDPR, PCI DSS, and SOC 2 assessments.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-virus"></i>
+                <span>ZehraSec</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="penetration-testing.html" class="nav-link">VAPT</a></li>
+                <li><a href="custom-software.html" class="nav-link">Software</a></li>
+                <li><a href="training.html" class="nav-link">Training</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="container">
+            <div class="hero-content" style="grid-template-columns: 1fr; text-align: center;">
+                <div>
+                    <h1 class="glitch-text" data-text="Security Audits">Security Audits</h1>
+                    <h2 class="hero-subtitle">Comprehensive Security Audits & Compliance</h2>
+                    <p class="hero-description">
+                        Ensure your organization meets industry standards and regulatory requirements 
+                        with our thorough security audits and compliance assessments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audit Services -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Audit & Compliance Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>ISO 27001 Compliance</h3>
+                    <p>Information Security Management System implementation and certification support.</p>
+                    <ul class="service-features">
+                        <li>Gap Analysis</li>
+                        <li>Risk Assessment</li>
+                        <li>Policy Development</li>
+                        <li>Implementation Support</li>
+                        <li>Internal Audits</li>
+                        <li>Certification Preparation</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>GDPR Compliance</h3>
+                    <p>General Data Protection Regulation compliance assessment and implementation.</p>
+                    <ul class="service-features">
+                        <li>Data Mapping</li>
+                        <li>Privacy Impact Assessment</li>
+                        <li>Consent Management</li>
+                        <li>Data Subject Rights</li>
+                        <li>Breach Notification</li>
+                        <li>DPO Support</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>PCI DSS Compliance</h3>
+                    <p>Payment Card Industry Data Security Standard compliance and validation.</p>
+                    <ul class="service-features">
+                        <li>Scope Definition</li>
+                        <li>Network Segmentation</li>
+                        <li>Vulnerability Scanning</li>
+                        <li>Penetration Testing</li>
+                        <li>Policy Review</li>
+                        <li>SAQ Completion</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>SOC 2 Assessments</h3>
+                    <p>Service Organization Control 2 Type I and Type II assessments.</p>
+                    <ul class="service-features">
+                        <li>Trust Services Criteria</li>
+                        <li>Control Design</li>
+                        <li>Operating Effectiveness</li>
+                        <li>Evidence Collection</li>
+                        <li>Report Preparation</li>
+                        <li>Remediation Support</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>HIPAA Compliance</h3>
+                    <p>Health Insurance Portability and Accountability Act compliance for healthcare.</p>
+                    <ul class="service-features">
+                        <li>Security Rule Assessment</li>
+                        <li>Privacy Rule Compliance</li>
+                        <li>Risk Analysis</li>
+                        <li>BAA Management</li>
+                        <li>Breach Response</li>
+                        <li>Training Programs</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>NIST Framework</h3>
+                    <p>National Institute of Standards and Technology Cybersecurity Framework implementation.</p>
+                    <ul class="service-features">
+                        <li>Current State Assessment</li>
+                        <li>Target State Definition</li>
+                        <li>Gap Analysis</li>
+                        <li>Implementation Roadmap</li>
+                        <li>Maturity Assessment</li>
+                        <li>Continuous Improvement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audit Process -->
+    <section class="audit-process" style="padding: 8rem 0; background: var(--bg-primary);">
+        <div class="container">
+            <h2 class="section-title">Our Audit Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Planning & Scoping</h3>
+                    <p>Define audit objectives, scope, and methodology based on applicable standards.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Documentation Review</h3>
+                    <p>Examine policies, procedures, and existing controls documentation.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Control Testing</h3>
+                    <p>Test the design and operating effectiveness of security controls.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <h3>Gap Analysis</h3>
+                    <p>Identify gaps between current state and compliance requirements.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">05</div>
+                    <h3>Risk Assessment</h3>
+                    <p>Evaluate security risks and their potential impact on the organization.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">06</div>
+                    <h3>Reporting</h3>
+                    <p>Deliver comprehensive reports with findings and remediation recommendations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance Frameworks -->
+    <section class="frameworks" style="padding: 8rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Compliance Frameworks</h2>
+            <div class="frameworks-grid">
+                <div class="framework-card">
+                    <div class="framework-logo">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>ISO 27001</h3>
+                    <p>International standard for information security management systems.</p>
+                    <div class="framework-features">
+                        <span>Risk Management</span>
+                        <span>Continuous Improvement</span>
+                        <span>Global Recognition</span>
+                    </div>
+                </div>
+                
+                <div class="framework-card">
+                    <div class="framework-logo">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>GDPR</h3>
+                    <p>European Union's General Data Protection Regulation for privacy.</p>
+                    <div class="framework-features">
+                        <span>Data Protection</span>
+                        <span>Privacy Rights</span>
+                        <span>EU Compliance</span>
+                    </div>
+                </div>
+                
+                <div class="framework-card">
+                    <div class="framework-logo">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>PCI DSS</h3>
+                    <p>Payment Card Industry Data Security Standard for payment processing.</p>
+                    <div class="framework-features">
+                        <span>Payment Security</span>
+                        <span>Card Data Protection</span>
+                        <span>Industry Standard</span>
+                    </div>
+                </div>
+                
+                <div class="framework-card">
+                    <div class="framework-logo">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>SOC 2</h3>
+                    <p>Service Organization Control 2 for service providers.</p>
+                    <div class="framework-features">
+                        <span>Trust Services</span>
+                        <span>Control Assessment</span>
+                        <span>Third-Party Assurance</span>
+                    </div>
+                </div>
+                
+                <div class="framework-card">
+                    <div class="framework-logo">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>HIPAA</h3>
+                    <p>Health Insurance Portability and Accountability Act for healthcare.</p>
+                    <div class="framework-features">
+                        <span>Healthcare Privacy</span>
+                        <span>PHI Protection</span>
+                        <span>Medical Compliance</span>
+                    </div>
+                </div>
+                
+                <div class="framework-card">
+                    <div class="framework-logo">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>NIST</h3>
+                    <p>National Institute of Standards and Technology framework.</p>
+                    <div class="framework-features">
+                        <span>Cybersecurity Framework</span>
+                        <span>Risk-Based Approach</span>
+                        <span>US Government Standard</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" style="padding: 8rem 0; background: var(--bg-primary);">
+        <div class="container">
+            <h2 class="section-title">Benefits of Security Audits</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-shield-check"></i>
+                    <h3>Risk Reduction</h3>
+                    <p>Identify and mitigate security risks before they become threats.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Regulatory Compliance</h3>
+                    <p>Meet industry standards and avoid regulatory penalties.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Customer Trust</h3>
+                    <p>Build customer confidence with demonstrated security commitment.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Business Growth</h3>
+                    <p>Enable business expansion with strong security foundations.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Process Improvement</h3>
+                    <p>Optimize security processes and operational efficiency.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <i class="fas fa-award"></i>
+                    <h3>Competitive Advantage</h3>
+                    <p>Differentiate your organization with security certifications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" style="padding: 6rem 0; background: linear-gradient(135deg, rgba(0, 255, 65, 0.1), rgba(255, 0, 128, 0.1)); text-align: center;">
+        <div class="container">
+            <h2 style="font-family: 'Orbitron', monospace; font-size: 2.5rem; color: var(--primary-color); margin-bottom: 2rem;">Ready for a Security Audit?</h2>
+            <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Ensure your organization meets compliance requirements and maintains the highest security standards.
+            </p>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn-primary">
+                    <i class="fas fa-search"></i>
+                    Request Audit
+                </a>
+                <a href="#" class="btn-secondary">
+                    <i class="fas fa-file-pdf"></i>
+                    Compliance Checklist
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-virus"></i>
+                        <span>ZehraSec</span>
+                    </div>
+                    <p>Elite cybersecurity solutions for the digital age.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                            <li><a href="custom-software.html">Custom Software</a></li>
+                            <li><a href="security-audits.html">Security Audits</a></li>
+                            <li><a href="training.html">Training</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <ul>
+                            <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                            <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                            <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                            <li><a href="government-sector.html">Government Sector</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ZehraSec. All rights reserved. | Securing the digital frontier.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .step {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .step:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .step-number {
+            font-family: 'Orbitron', monospace;
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--primary-color);
+            text-shadow: var(--shadow-glow);
+            margin-bottom: 1rem;
+        }
+        
+        .step h3 {
+            font-family: 'Orbitron', monospace;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .frameworks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .framework-card {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .framework-card:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .framework-logo i {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .framework-card h3 {
+            font-family: 'Orbitron', monospace;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .framework-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+        
+        .framework-features span {
+            background: var(--bg-secondary);
+            color: var(--primary-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            border: 1px solid var(--primary-color);
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .benefit-item {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .benefit-item:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .benefit-item i {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .benefit-item h3 {
+            font-family: 'Orbitron', monospace;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .benefit-item p {
+            color: var(--text-secondary);
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "zehrasec-website",
+  "version": "1.0.0",
+  "description": "Elite cybersecurity solutions website with advanced hacker-style UI",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "live-server .",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'Tests not yet implemented'"
+  },
+  "keywords": [
+    "cybersecurity",
+    "penetration-testing",
+    "vapt",
+    "security-audit",
+    "hacker",
+    "website",
+    "matrix-effect",
+    "cyberpunk"
+  ],
+  "author": "ZehraSec",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zehrasec/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zehrasec/website/issues"
+  },
+  "homepage": "https://zehrasec.com"
+}

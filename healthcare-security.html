@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Security - ZehraSec</title>
+    <meta name="description" content="Comprehensive cybersecurity solutions for healthcare organizations. Protect patient data and medical infrastructure with ZehraSec's specialized healthcare security services.">
+    <meta name="keywords" content="healthcare cybersecurity, HIPAA compliance, medical device security, patient data protection, ZehraSec">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+    <div class="matrix-bg" id="matrix-bg"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="glitch" data-text="ZehraSec">ZehraSec</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                        <li><a href="custom-software.html">Custom Software</a></li>
+                        <li><a href="security-audits.html">Security Audits</a></li>
+                        <li><a href="training.html">Training</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Solutions <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                        <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                        <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                        <li><a href="government-sector.html">Government Sector</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Company <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section healthcare-hero">
+            <div class="container">
+                <h1 class="glitch-title" data-text="Healthcare Security">Healthcare Security</h1>
+                <p class="hero-subtitle">Protecting Lives Through Cybersecurity</p>
+                <div class="hero-description">
+                    <p>Safeguard patient data, medical devices, and healthcare infrastructure with comprehensive cybersecurity solutions designed for the unique challenges of healthcare organizations.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Schedule Assessment</a>
+                    <a href="#healthcare-services" class="btn btn-secondary">Our Solutions</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Healthcare Stats -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="200">0</div>
+                        <div class="stat-label">Healthcare Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">HIPAA Compliant</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Million Patient Records Protected</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="0">0</div>
+                        <div class="stat-label">Data Breaches This Year</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Healthcare Threats -->
+        <section class="section threats-section">
+            <div class="container">
+                <h2 class="section-title">Healthcare Cybersecurity Threats</h2>
+                <div class="threats-grid">
+                    <div class="threat-card">
+                        <div class="threat-icon">🏥</div>
+                        <h3>Ransomware Attacks</h3>
+                        <p>Healthcare organizations face 40% more ransomware attacks than other industries, threatening patient care and data.</p>
+                        <div class="threat-impact">Critical Impact</div>
+                    </div>
+                    <div class="threat-card">
+                        <div class="threat-icon">📱</div>
+                        <h3>Medical Device Vulnerabilities</h3>
+                        <p>Connected medical devices often lack proper security controls, creating entry points for attackers.</p>
+                        <div class="threat-impact">High Impact</div>
+                    </div>
+                    <div class="threat-card">
+                        <div class="threat-icon">🎣</div>
+                        <h3>Phishing & Social Engineering</h3>
+                        <p>Healthcare workers are frequently targeted with sophisticated phishing campaigns exploiting trust and urgency.</p>
+                        <div class="threat-impact">High Impact</div>
+                    </div>
+                    <div class="threat-card">
+                        <div class="threat-icon">👥</div>
+                        <h3>Insider Threats</h3>
+                        <p>Privileged access to sensitive patient data makes healthcare vulnerable to both malicious and accidental insider threats.</p>
+                        <div class="threat-impact">Medium Impact</div>
+                    </div>
+                    <div class="threat-card">
+                        <div class="threat-icon">☁️</div>
+                        <h3>Cloud Security Gaps</h3>
+                        <p>Rapid cloud adoption in healthcare often outpaces security implementation, creating vulnerabilities.</p>
+                        <div class="threat-impact">Medium Impact</div>
+                    </div>
+                    <div class="threat-card">
+                        <div class="threat-icon">📊</div>
+                        <h3>Data Exfiltration</h3>
+                        <p>Patient health information is valuable on dark markets, making healthcare a prime target for data theft.</p>
+                        <div class="threat-impact">Critical Impact</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Healthcare Services -->
+        <section class="section services-section" id="healthcare-services">
+            <div class="container">
+                <h2 class="section-title">Healthcare Security Solutions</h2>
+                <div class="services-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="hipaa-compliance">HIPAA Compliance</button>
+                        <button class="tab-btn" data-tab="medical-devices">Medical Device Security</button>
+                        <button class="tab-btn" data-tab="data-protection">Data Protection</button>
+                        <button class="tab-btn" data-tab="incident-response">Incident Response</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="hipaa-compliance">
+                        <div class="service-content">
+                            <h3>HIPAA Compliance & Risk Assessment</h3>
+                            <div class="service-features">
+                                <div class="feature-item">
+                                    <h4>Comprehensive Risk Analysis</h4>
+                                    <p>Thorough assessment of your organization's HIPAA compliance posture and risk profile.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Security Rule Implementation</h4>
+                                    <p>Implementation of technical, administrative, and physical safeguards as required by HIPAA Security Rule.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Privacy Rule Compliance</h4>
+                                    <p>Ensuring proper handling, use, and disclosure of protected health information (PHI).</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Breach Notification</h4>
+                                    <p>Assistance with breach assessment, notification procedures, and regulatory reporting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="medical-devices">
+                        <div class="service-content">
+                            <h3>Medical Device Security</h3>
+                            <div class="service-features">
+                                <div class="feature-item">
+                                    <h4>IoMT Security Assessment</h4>
+                                    <p>Comprehensive security evaluation of Internet of Medical Things (IoMT) devices and networks.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>FDA Cybersecurity Guidance</h4>
+                                    <p>Implementation of FDA cybersecurity guidelines for medical device manufacturers and healthcare providers.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Network Segmentation</h4>
+                                    <p>Proper isolation of medical devices from corporate networks to prevent lateral movement of threats.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Device Monitoring</h4>
+                                    <p>Continuous monitoring and threat detection for medical device networks and communications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="data-protection">
+                        <div class="service-content">
+                            <h3>Patient Data Protection</h3>
+                            <div class="service-features">
+                                <div class="feature-item">
+                                    <h4>Data Encryption</h4>
+                                    <p>End-to-end encryption of patient data at rest, in transit, and in use across all systems.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Access Controls</h4>
+                                    <p>Role-based access control (RBAC) implementation with least privilege principles for PHI access.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Data Loss Prevention</h4>
+                                    <p>Advanced DLP solutions to prevent unauthorized access, use, or transmission of patient data.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Audit Logging</h4>
+                                    <p>Comprehensive audit trails for all PHI access and modifications with tamper-proof logging.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="incident-response">
+                        <div class="service-content">
+                            <h3>Healthcare Incident Response</h3>
+                            <div class="service-features">
+                                <div class="feature-item">
+                                    <h4>24/7 Response Team</h4>
+                                    <p>Dedicated healthcare incident response team available around the clock for critical situations.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Breach Investigation</h4>
+                                    <p>Forensic investigation and containment of security breaches with minimal disruption to patient care.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Regulatory Notification</h4>
+                                    <p>Assistance with HHS OCR breach notification and other regulatory compliance requirements.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <h4>Recovery Planning</h4>
+                                    <p>Business continuity and disaster recovery planning specifically tailored for healthcare operations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compliance Framework -->
+        <section class="section compliance-section">
+            <div class="container">
+                <h2 class="section-title">Healthcare Compliance Frameworks</h2>
+                <div class="compliance-grid">
+                    <div class="compliance-card">
+                        <div class="compliance-icon">🏥</div>
+                        <h3>HIPAA/HITECH</h3>
+                        <p>Complete Health Insurance Portability and Accountability Act compliance including HITECH Act requirements.</p>
+                        <ul>
+                            <li>Security Rule Implementation</li>
+                            <li>Privacy Rule Compliance</li>
+                            <li>Breach Notification Rule</li>
+                            <li>Omnibus Rule Updates</li>
+                        </ul>
+                    </div>
+                    <div class="compliance-card">
+                        <div class="compliance-icon">🔒</div>
+                        <h3>NIST Cybersecurity Framework</h3>
+                        <p>Implementation of NIST CSF specifically tailored for healthcare organizations.</p>
+                        <ul>
+                            <li>Identify & Protect Functions</li>
+                            <li>Detect & Respond Capabilities</li>
+                            <li>Recover Operations</li>
+                            <li>Risk Management</li>
+                        </ul>
+                    </div>
+                    <div class="compliance-card">
+                        <div class="compliance-icon">💊</div>
+                        <h3>FDA Cybersecurity</h3>
+                        <p>Medical device cybersecurity compliance with FDA guidelines and regulations.</p>
+                        <ul>
+                            <li>Pre-market Submissions</li>
+                            <li>Post-market Surveillance</li>
+                            <li>Software Bill of Materials</li>
+                            <li>Vulnerability Management</li>
+                        </ul>
+                    </div>
+                    <div class="compliance-card">
+                        <div class="compliance-icon">🌍</div>
+                        <h3>International Standards</h3>
+                        <p>Global healthcare security standards and certifications.</p>
+                        <ul>
+                            <li>ISO 27001/27799</li>
+                            <li>GDPR for Healthcare</li>
+                            <li>SOC 2 Type II</li>
+                            <li>IEC 62304</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies -->
+        <section class="section case-studies-section">
+            <div class="container">
+                <h2 class="section-title">Healthcare Security Success Stories</h2>
+                <div class="case-studies-grid">
+                    <div class="case-study-card">
+                        <div class="case-study-header">
+                            <h3>Regional Hospital Network</h3>
+                            <span class="case-study-tag">HIPAA Compliance</span>
+                        </div>
+                        <p>Achieved full HIPAA compliance for 5-hospital network serving 500,000+ patients with zero downtime implementation.</p>
+                        <div class="case-study-results">
+                            <div class="result-item">
+                                <span class="result-value">100%</span>
+                                <span class="result-label">HIPAA Compliance</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">0</span>
+                                <span class="result-label">Downtime Hours</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-card">
+                        <div class="case-study-header">
+                            <h3>Medical Device Manufacturer</h3>
+                            <span class="case-study-tag">IoMT Security</span>
+                        </div>
+                        <p>Secured connected insulin pumps and monitoring devices for FDA approval with comprehensive cybersecurity framework.</p>
+                        <div class="case-study-results">
+                            <div class="result-item">
+                                <span class="result-value">FDA</span>
+                                <span class="result-label">Approval Achieved</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">50K</span>
+                                <span class="result-label">Devices Secured</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-card">
+                        <div class="case-study-header">
+                            <h3>Telehealth Platform</h3>
+                            <span class="case-study-tag">Privacy Protection</span>
+                        </div>
+                        <p>Implemented end-to-end encryption and secure video conferencing for telehealth platform serving 1M+ patients.</p>
+                        <div class="case-study-results">
+                            <div class="result-item">
+                                <span class="result-value">1M+</span>
+                                <span class="result-label">Patients Protected</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">99.9%</span>
+                                <span class="result-label">Availability</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Solutions -->
+        <section class="section tech-solutions-section">
+            <div class="container">
+                <h2 class="section-title">Healthcare Security Technologies</h2>
+                <div class="tech-solutions-grid">
+                    <div class="tech-solution">
+                        <h3>🛡️ Endpoint Protection</h3>
+                        <p>Advanced endpoint detection and response (EDR) solutions specifically configured for healthcare environments.</p>
+                    </div>
+                    <div class="tech-solution">
+                        <h3>🔐 Identity Management</h3>
+                        <p>Single sign-on (SSO) and multi-factor authentication (MFA) systems integrated with EHR and clinical systems.</p>
+                    </div>
+                    <div class="tech-solution">
+                        <h3>📡 Network Monitoring</h3>
+                        <p>24/7 network traffic analysis and anomaly detection for healthcare IT infrastructure and medical devices.</p>
+                    </div>
+                    <div class="tech-solution">
+                        <h3>☁️ Cloud Security</h3>
+                        <p>Secure cloud migration and hybrid cloud security solutions for healthcare data and applications.</p>
+                    </div>
+                    <div class="tech-solution">
+                        <h3>🔒 Data Encryption</h3>
+                        <p>Database encryption, email security, and secure file sharing solutions for protected health information.</p>
+                    </div>
+                    <div class="tech-solution">
+                        <h3>📊 Risk Assessment</h3>
+                        <p>Automated vulnerability scanning and risk assessment tools tailored for healthcare compliance requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Protect Your Patients and Your Organization</h2>
+                <p>Trust ZehraSec to safeguard your healthcare organization with comprehensive cybersecurity solutions that don't compromise patient care.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Schedule Security Assessment</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                        <li><a href="custom-software.html">Custom Software</a></li>
+                        <li><a href="security-audits.html">Security Audits</a></li>
+                        <li><a href="training.html">Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Solutions</h3>
+                    <ul>
+                        <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                        <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                        <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                        <li><a href="government-sector.html">Government Sector</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="GitHub">💻</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZehraSec. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

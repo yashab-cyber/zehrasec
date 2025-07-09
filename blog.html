@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - ZehraSec</title>
+    <meta name="description" content="Latest insights, research, and expertise from ZehraSec's cybersecurity professionals. Stay informed about the latest threats, trends, and security best practices.">
+    <meta name="keywords" content="cybersecurity blog, security research, threat intelligence, penetration testing insights, ZehraSec">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+    <div class="matrix-bg" id="matrix-bg"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="glitch" data-text="ZehraSec">ZehraSec</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                        <li><a href="custom-software.html">Custom Software</a></li>
+                        <li><a href="security-audits.html">Security Audits</a></li>
+                        <li><a href="training.html">Training</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Solutions <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                        <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                        <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                        <li><a href="government-sector.html">Government Sector</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Company <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section blog-hero">
+            <div class="container">
+                <h1 class="glitch-title" data-text="ZehraSec Blog">ZehraSec Blog</h1>
+                <p class="hero-subtitle">Insights from the Frontlines of Cybersecurity</p>
+                <div class="hero-description">
+                    <p>Discover the latest cybersecurity insights, research findings, and expert analysis from our team of security professionals.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#latest-posts" class="btn btn-primary">Read Latest Posts</a>
+                    <a href="#subscribe" class="btn btn-secondary">Subscribe</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Post -->
+        <section class="section featured-section">
+            <div class="container">
+                <h2 class="section-title">Featured Article</h2>
+                <div class="featured-post">
+                    <div class="featured-post-content">
+                        <div class="post-meta">
+                            <span class="post-category">Threat Intelligence</span>
+                            <span class="post-date">December 15, 2024</span>
+                        </div>
+                        <h3>The Evolution of AI-Powered Cyber Attacks: What Organizations Need to Know</h3>
+                        <p>As artificial intelligence becomes more sophisticated, cybercriminals are leveraging these technologies to create more convincing phishing attacks, automated vulnerability discovery, and adaptive malware. This comprehensive analysis explores the current state of AI-powered threats and provides actionable defense strategies.</p>
+                        <div class="post-author">
+                            <span>By Dr. Sarah Chen, Chief Security Researcher</span>
+                        </div>
+                        <a href="#" class="read-more-btn">Read Full Article</a>
+                    </div>
+                    <div class="featured-post-image">
+                        <div class="blog-image-placeholder">🤖 AI Security Analysis</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Categories -->
+        <section class="section categories-section">
+            <div class="container">
+                <h2 class="section-title">Browse by Category</h2>
+                <div class="blog-categories">
+                    <div class="category-filter">
+                        <button class="filter-btn active" data-category="all">All Posts</button>
+                        <button class="filter-btn" data-category="threat-intelligence">Threat Intelligence</button>
+                        <button class="filter-btn" data-category="penetration-testing">Penetration Testing</button>
+                        <button class="filter-btn" data-category="incident-response">Incident Response</button>
+                        <button class="filter-btn" data-category="compliance">Compliance</button>
+                        <button class="filter-btn" data-category="research">Research</button>
+                        <button class="filter-btn" data-category="tutorials">Tutorials</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Posts -->
+        <section class="section posts-section" id="latest-posts">
+            <div class="container">
+                <h2 class="section-title">Latest Posts</h2>
+                <div class="blog-posts-grid">
+                    <!-- Post 1 -->
+                    <article class="blog-post" data-category="penetration-testing">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">🎯 Advanced Penetration Testing</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Penetration Testing</span>
+                                <span class="post-date">December 12, 2024</span>
+                            </div>
+                            <h3>Advanced Persistence Techniques in Modern Penetration Testing</h3>
+                            <p>Explore sophisticated persistence mechanisms that modern attackers use to maintain long-term access to compromised systems. This technical deep-dive covers registry manipulation, service hijacking, and steganographic techniques.</p>
+                            <div class="post-author">By Marcus Rodriguez, Senior Penetration Tester</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="blog-post" data-category="incident-response">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">🚨 Incident Response</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Incident Response</span>
+                                <span class="post-date">December 10, 2024</span>
+                            </div>
+                            <h3>Ransomware Recovery: Lessons from the Field</h3>
+                            <p>Real-world case studies from recent ransomware incidents, including timeline analysis, containment strategies, and recovery procedures that minimized business impact.</p>
+                            <div class="post-author">By Jennifer Kim, Incident Response Lead</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="blog-post" data-category="compliance">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">📋 Compliance Guide</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Compliance</span>
+                                <span class="post-date">December 8, 2024</span>
+                            </div>
+                            <h3>NIST 2.0 Framework Update: Key Changes for Organizations</h3>
+                            <p>Comprehensive analysis of the updated NIST Cybersecurity Framework 2.0, including new governance functions and implementation guidance for enterprise environments.</p>
+                            <div class="post-author">By David Thompson, Compliance Director</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 4 -->
+                    <article class="blog-post" data-category="research">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">🔬 Security Research</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Research</span>
+                                <span class="post-date">December 6, 2024</span>
+                            </div>
+                            <h3>Zero-Day Discovery: CVE-2024-XXXX Analysis</h3>
+                            <p>Technical breakdown of a recently discovered zero-day vulnerability in a popular enterprise application, including exploitation techniques and mitigation strategies.</p>
+                            <div class="post-author">By Alex Chen, Security Researcher</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 5 -->
+                    <article class="blog-post" data-category="tutorials">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">🎓 Tutorial</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Tutorials</span>
+                                <span class="post-date">December 4, 2024</span>
+                            </div>
+                            <h3>Building a Home Cybersecurity Lab: Complete Setup Guide</h3>
+                            <p>Step-by-step guide to creating a comprehensive cybersecurity testing environment using VirtualBox, Kali Linux, and vulnerable applications for hands-on learning.</p>
+                            <div class="post-author">By Lisa Wang, Training Specialist</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 6 -->
+                    <article class="blog-post" data-category="threat-intelligence">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">🕵️ Threat Analysis</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Threat Intelligence</span>
+                                <span class="post-date">December 2, 2024</span>
+                            </div>
+                            <h3>APT Group Evolution: Q4 2024 Threat Landscape Report</h3>
+                            <p>Quarterly analysis of advanced persistent threat groups, including new tactics, techniques, and procedures (TTPs) observed in recent campaigns targeting critical infrastructure.</p>
+                            <div class="post-author">By Robert Johnson, Threat Intelligence Analyst</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 7 -->
+                    <article class="blog-post" data-category="penetration-testing">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">⚡ Web App Testing</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Penetration Testing</span>
+                                <span class="post-date">November 30, 2024</span>
+                            </div>
+                            <h3>Modern Web Application Testing: Beyond OWASP Top 10</h3>
+                            <p>Advanced web application security testing techniques including GraphQL security, API abuse, and client-side template injection vulnerabilities.</p>
+                            <div class="post-author">By Emily Carter, Web Application Security Specialist</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 8 -->
+                    <article class="blog-post" data-category="compliance">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">🏥 Healthcare Security</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Compliance</span>
+                                <span class="post-date">November 28, 2024</span>
+                            </div>
+                            <h3>HIPAA Security Rule Updates: What Healthcare Organizations Need to Know</h3>
+                            <p>Recent updates to HIPAA security requirements and their implications for healthcare organizations, including new guidance on cloud services and mobile health applications.</p>
+                            <div class="post-author">By Maria Gonzalez, Healthcare Security Consultant</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Post 9 -->
+                    <article class="blog-post" data-category="research">
+                        <div class="post-image">
+                            <div class="blog-image-placeholder">🔐 Cryptography</div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Research</span>
+                                <span class="post-date">November 26, 2024</span>
+                            </div>
+                            <h3>Post-Quantum Cryptography: Preparing for the Quantum Future</h3>
+                            <p>Analysis of NIST's post-quantum cryptography standards and practical guidance for organizations preparing for the transition to quantum-resistant algorithms.</p>
+                            <div class="post-author">By Dr. James Wilson, Cryptography Researcher</div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-section">
+                    <button class="btn btn-secondary load-more-btn">Load More Posts</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Subscription -->
+        <section class="section newsletter-section" id="subscribe">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Informed with ZehraSec Insights</h2>
+                    <p>Subscribe to our weekly newsletter for the latest cybersecurity insights, research findings, and industry analysis delivered directly to your inbox.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email address" class="email-input" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                        <div class="newsletter-benefits">
+                            <div class="benefit-item">
+                                <span class="benefit-icon">📧</span>
+                                <span>Weekly security insights</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🔍</span>
+                                <span>Exclusive research reports</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🎯</span>
+                                <span>Threat intelligence updates</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Tags -->
+        <section class="section tags-section">
+            <div class="container">
+                <h2 class="section-title">Popular Tags</h2>
+                <div class="blog-tags">
+                    <span class="blog-tag">Penetration Testing</span>
+                    <span class="blog-tag">Incident Response</span>
+                    <span class="blog-tag">Threat Intelligence</span>
+                    <span class="blog-tag">NIST Framework</span>
+                    <span class="blog-tag">Cloud Security</span>
+                    <span class="blog-tag">Zero Trust</span>
+                    <span class="blog-tag">HIPAA Compliance</span>
+                    <span class="blog-tag">Ransomware</span>
+                    <span class="blog-tag">Web Application Security</span>
+                    <span class="blog-tag">AI Security</span>
+                    <span class="blog-tag">IoT Security</span>
+                    <span class="blog-tag">DevSecOps</span>
+                    <span class="blog-tag">Mobile Security</span>
+                    <span class="blog-tag">Blockchain Security</span>
+                    <span class="blog-tag">Social Engineering</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Want to Contribute to Our Blog?</h2>
+                <p>Share your cybersecurity expertise with our community. We're always looking for guest contributors and industry insights.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Submit Article Idea</a>
+                    <a href="careers.html" class="btn btn-secondary">Join Our Team</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                        <li><a href="custom-software.html">Custom Software</a></li>
+                        <li><a href="security-audits.html">Security Audits</a></li>
+                        <li><a href="training.html">Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Solutions</h3>
+                    <ul>
+                        <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                        <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                        <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                        <li><a href="government-sector.html">Government Sector</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="GitHub">💻</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZehraSec. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Blog-specific functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Category filtering
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogPosts = document.querySelectorAll('.blog-post');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Update active button
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const category = this.dataset.category;
+                    
+                    // Filter posts
+                    blogPosts.forEach(post => {
+                        if (category === 'all' || post.dataset.category === category) {
+                            post.style.display = 'block';
+                        } else {
+                            post.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Newsletter form
+            const newsletterForm = document.querySelector('.newsletter-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = this.querySelector('.email-input').value;
+                    alert('Thank you for subscribing! You will receive our weekly newsletter at ' + email);
+                    this.querySelector('.email-input').value = '';
+                });
+            }
+            
+            // Load more functionality
+            const loadMoreBtn = document.querySelector('.load-more-btn');
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', function() {
+                    alert('Loading more posts... (This would fetch additional blog posts in a real implementation)');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

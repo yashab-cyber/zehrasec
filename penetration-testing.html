@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penetration Testing Services - ZehraSec</title>
+    <meta name="description" content="Professional penetration testing services including network, web application, wireless, and social engineering assessments.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-virus"></i>
+                <span>ZehraSec</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="custom-software.html" class="nav-link">Software</a></li>
+                <li><a href="training.html" class="nav-link">Training</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="container">
+            <div class="hero-content" style="grid-template-columns: 1fr; text-align: center;">
+                <div>
+                    <h1 class="glitch-text" data-text="Penetration Testing">Penetration Testing</h1>
+                    <h2 class="hero-subtitle">Advanced Vulnerability Assessment & Penetration Testing</h2>
+                    <p class="hero-description">
+                        Comprehensive security testing to identify vulnerabilities before attackers do. 
+                        Our expert ethical hackers simulate real-world attacks to strengthen your defenses.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">VAPT Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Network Penetration Testing</h3>
+                    <p>Comprehensive assessment of network infrastructure, identifying vulnerabilities in routers, switches, firewalls, and network protocols.</p>
+                    <ul class="service-features">
+                        <li>External Network Testing</li>
+                        <li>Internal Network Assessment</li>
+                        <li>Wireless Network Security</li>
+                        <li>Network Segmentation Testing</li>
+                        <li>Firewall Configuration Review</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Application Testing</h3>
+                    <p>In-depth security testing of web applications to identify OWASP Top 10 vulnerabilities and custom application flaws.</p>
+                    <ul class="service-features">
+                        <li>SQL Injection Testing</li>
+                        <li>Cross-Site Scripting (XSS)</li>
+                        <li>Authentication Bypass</li>
+                        <li>Session Management Flaws</li>
+                        <li>Business Logic Vulnerabilities</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Application Testing</h3>
+                    <p>Security assessment of iOS and Android applications, including static and dynamic analysis.</p>
+                    <ul class="service-features">
+                        <li>Static Code Analysis</li>
+                        <li>Dynamic Runtime Testing</li>
+                        <li>API Security Testing</li>
+                        <li>Data Storage Security</li>
+                        <li>Communication Security</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>Wireless Security Testing</h3>
+                    <p>Assessment of wireless networks and protocols to identify security weaknesses and unauthorized access points.</p>
+                    <ul class="service-features">
+                        <li>Wi-Fi Security Assessment</li>
+                        <li>WPA/WPA2/WPA3 Testing</li>
+                        <li>Rogue Access Point Detection</li>
+                        <li>Bluetooth Security Testing</li>
+                        <li>IoT Device Assessment</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Social Engineering Testing</h3>
+                    <p>Human-factor security testing including phishing campaigns and physical security assessments.</p>
+                    <ul class="service-features">
+                        <li>Phishing Campaign Simulation</li>
+                        <li>Vishing (Voice Phishing)</li>
+                        <li>Physical Security Testing</li>
+                        <li>USB Drop Testing</li>
+                        <li>Employee Security Awareness</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Security Testing</h3>
+                    <p>Security assessment of cloud infrastructure and services across AWS, Azure, and Google Cloud platforms.</p>
+                    <ul class="service-features">
+                        <li>Cloud Configuration Review</li>
+                        <li>IAM Policy Assessment</li>
+                        <li>Storage Security Testing</li>
+                        <li>Container Security</li>
+                        <li>Serverless Security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section class="methodology" style="padding: 8rem 0; background: var(--bg-primary);">
+        <div class="container">
+            <h2 class="section-title">Our Methodology</h2>
+            <div class="methodology-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="methodology-step">
+                    <div class="step-number">01</div>
+                    <h3>Planning & Reconnaissance</h3>
+                    <p>Information gathering and attack surface mapping to understand the target environment.</p>
+                </div>
+                
+                <div class="methodology-step">
+                    <div class="step-number">02</div>
+                    <h3>Scanning & Enumeration</h3>
+                    <p>Detailed scanning to identify live systems, open ports, and running services.</p>
+                </div>
+                
+                <div class="methodology-step">
+                    <div class="step-number">03</div>
+                    <h3>Vulnerability Assessment</h3>
+                    <p>Comprehensive vulnerability identification using automated tools and manual testing.</p>
+                </div>
+                
+                <div class="methodology-step">
+                    <div class="step-number">04</div>
+                    <h3>Exploitation</h3>
+                    <p>Controlled exploitation of vulnerabilities to demonstrate real-world impact.</p>
+                </div>
+                
+                <div class="methodology-step">
+                    <div class="step-number">05</div>
+                    <h3>Post-Exploitation</h3>
+                    <p>Privilege escalation, lateral movement, and data exfiltration simulation.</p>
+                </div>
+                
+                <div class="methodology-step">
+                    <div class="step-number">06</div>
+                    <h3>Reporting</h3>
+                    <p>Detailed technical and executive reports with remediation recommendations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools" style="padding: 8rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Tools & Technologies</h2>
+            <div class="tools-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+                <div class="tool-item">
+                    <i class="fas fa-terminal" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h4>Nmap</h4>
+                    <p>Network Discovery</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-bug" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h4>Metasploit</h4>
+                    <p>Exploitation Framework</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-search" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h4>Burp Suite</h4>
+                    <p>Web Application Testing</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-code" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h4>SQLMap</h4>
+                    <p>SQL Injection Testing</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-wifi" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h4>Aircrack-ng</h4>
+                    <p>Wireless Security</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-lock" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h4>John the Ripper</h4>
+                    <p>Password Cracking</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" style="padding: 6rem 0; background: linear-gradient(135deg, rgba(0, 255, 65, 0.1), rgba(255, 0, 128, 0.1)); text-align: center;">
+        <div class="container">
+            <h2 style="font-family: 'Orbitron', monospace; font-size: 2.5rem; color: var(--primary-color); margin-bottom: 2rem;">Ready to Test Your Security?</h2>
+            <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Don't wait for a real attack. Get a comprehensive penetration test to identify and fix vulnerabilities before they're exploited.
+            </p>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Get a Quote
+                </a>
+                <a href="tel:+15555555555" class="btn-secondary">
+                    <i class="fas fa-phone"></i>
+                    Call Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-virus"></i>
+                        <span>ZehraSec</span>
+                    </div>
+                    <p>Elite cybersecurity solutions for the digital age.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                            <li><a href="custom-software.html">Custom Software</a></li>
+                            <li><a href="security-audits.html">Security Audits</a></li>
+                            <li><a href="training.html">Training</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <ul>
+                            <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                            <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                            <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                            <li><a href="government-sector.html">Government Sector</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ZehraSec. All rights reserved. | Securing the digital frontier.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .methodology-step {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .methodology-step:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .step-number {
+            font-family: 'Orbitron', monospace;
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--primary-color);
+            text-shadow: var(--shadow-glow);
+            margin-bottom: 1rem;
+        }
+        
+        .methodology-step h3 {
+            font-family: 'Orbitron', monospace;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .tool-item {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+        
+        .tool-item:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .tool-item h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            font-family: 'Orbitron', monospace;
+        }
+        
+        .tool-item p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</body>
+</html>

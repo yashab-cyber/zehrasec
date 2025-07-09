@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ZehraSec</title>
+    <meta name="description" content="Get in touch with ZehraSec's cybersecurity experts. Contact us for security assessments, custom solutions, training, and consultation.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-virus"></i>
+                <span>ZehraSec</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="penetration-testing.html" class="nav-link">VAPT</a></li>
+                <li><a href="custom-software.html" class="nav-link">Software</a></li>
+                <li><a href="training.html" class="nav-link">Training</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="container">
+            <div class="hero-content" style="grid-template-columns: 1fr; text-align: center;">
+                <div>
+                    <h1 class="glitch-text" data-text="Contact Us">Contact Us</h1>
+                    <h2 class="hero-subtitle">Let's Secure Your Digital Future</h2>
+                    <p class="hero-description">
+                        Ready to enhance your cybersecurity posture? Our experts are here to help you 
+                        assess your security needs and develop the perfect solution for your organization.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Ready to secure your digital assets? Contact our cybersecurity experts for a comprehensive security assessment and consultation.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <span>contact@zehrasec.com</span>
+                                <span>info@zehrasec.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div class="method-info">
+                                <h4>Phone</h4>
+                                <span>+1 (555) ZEHRA-SEC</span>
+                                <span>+1 (555) 934-7273</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="method-info">
+                                <h4>Address</h4>
+                                <span>123 Cyber Security District</span>
+                                <span>Tech City, TC 12345</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div class="method-info">
+                                <h4>Business Hours</h4>
+                                <span>Monday - Friday: 8:00 AM - 6:00 PM</span>
+                                <span>24/7 Emergency Support Available</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <div class="form-group">
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                        <input type="text" name="lastName" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="tel" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                        <select name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="vapt">Penetration Testing (VAPT)</option>
+                            <option value="custom-software">Custom Software Development</option>
+                            <option value="security-audit">Security Audit & Compliance</option>
+                            <option value="training">Cybersecurity Training</option>
+                            <option value="incident-response">Incident Response</option>
+                            <option value="consultation">Security Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select name="budget" required>
+                            <option value="">Budget Range</option>
+                            <option value="under-10k">Under $10,000</option>
+                            <option value="10k-50k">$10,000 - $50,000</option>
+                            <option value="50k-100k">$50,000 - $100,000</option>
+                            <option value="100k-250k">$100,000 - $250,000</option>
+                            <option value="250k-plus">$250,000+</option>
+                        </select>
+                        <select name="timeline" required>
+                            <option value="">Project Timeline</option>
+                            <option value="immediate">Immediate (ASAP)</option>
+                            <option value="1-month">Within 1 Month</option>
+                            <option value="3-months">Within 3 Months</option>
+                            <option value="6-months">Within 6 Months</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+                    <textarea name="message" placeholder="Tell us about your security needs, current challenges, and what you're looking to achieve..." rows="6" required></textarea>
+                    
+                    <div class="form-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="newsletter">
+                            <span class="checkmark"></span>
+                            Subscribe to our cybersecurity newsletter
+                        </label>
+                        
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="privacy" required>
+                            <span class="checkmark"></span>
+                            I agree to the <a href="#" style="color: var(--primary-color);">Privacy Policy</a>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section class="offices" style="padding: 8rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Global Offices</h2>
+            <div class="offices-grid">
+                <div class="office-card">
+                    <div class="office-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Headquarters</h3>
+                    <p class="office-location">Tech City, USA</p>
+                    <div class="office-details">
+                        <p>123 Cyber Security District<br>
+                        Tech City, TC 12345</p>
+                        <p><strong>Phone:</strong> +1 (555) 934-7273</p>
+                        <p><strong>Email:</strong> hq@zehrasec.com</p>
+                    </div>
+                </div>
+                
+                <div class="office-card">
+                    <div class="office-icon">
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                    <h3>European Office</h3>
+                    <p class="office-location">London, UK</p>
+                    <div class="office-details">
+                        <p>456 Security Avenue<br>
+                        London, LN1 2AB</p>
+                        <p><strong>Phone:</strong> +44 20 7123 4567</p>
+                        <p><strong>Email:</strong> europe@zehrasec.com</p>
+                    </div>
+                </div>
+                
+                <div class="office-card">
+                    <div class="office-icon">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <h3>Asian Office</h3>
+                    <p class="office-location">Singapore</p>
+                    <div class="office-details">
+                        <p>789 Cyber Plaza<br>
+                        Singapore 123456</p>
+                        <p><strong>Phone:</strong> +65 6789 0123</p>
+                        <p><strong>Email:</strong> asia@zehrasec.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" style="padding: 8rem 0; background: var(--bg-primary);">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long does a penetration test take?</h3>
+                    <p>The duration depends on the scope and complexity of your environment. Typical assessments range from 1-4 weeks, with results delivered within 5 business days after testing completion.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer emergency incident response?</h3>
+                    <p>Yes, we provide 24/7 emergency incident response services. Our rapid response team can be mobilized within 2 hours for critical security incidents.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What compliance standards do you support?</h3>
+                    <p>We support all major compliance frameworks including ISO 27001, GDPR, PCI DSS, HIPAA, SOC 2, NIST, and industry-specific regulations.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can you work with our existing security tools?</h3>
+                    <p>Absolutely. Our solutions are designed to integrate seamlessly with existing security infrastructure and tools from major vendors.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you provide training for our staff?</h3>
+                    <p>Yes, we offer comprehensive cybersecurity training programs tailored to different skill levels, from basic awareness to advanced technical training.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What is your typical response time?</h3>
+                    <p>For general inquiries, we respond within 4 business hours. For security consultations, we typically schedule initial meetings within 24-48 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="emergency" style="padding: 4rem 0; background: linear-gradient(135deg, rgba(255, 0, 128, 0.2), rgba(0, 255, 65, 0.2)); text-align: center;">
+        <div class="container">
+            <h2 style="font-family: 'Orbitron', monospace; color: var(--secondary-color); margin-bottom: 1rem;">
+                <i class="fas fa-exclamation-triangle"></i>
+                Security Emergency?
+            </h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                If you're experiencing an active security incident, contact our emergency response team immediately.
+            </p>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <a href="tel:+15551234567" class="btn-primary" style="background: linear-gradient(45deg, var(--secondary-color), #ff4081);">
+                    <i class="fas fa-phone"></i>
+                    Emergency Hotline: +1 (555) 123-4567
+                </a>
+                <a href="mailto:emergency@zehrasec.com" class="btn-secondary" style="border-color: var(--secondary-color); color: var(--secondary-color);">
+                    <i class="fas fa-envelope"></i>
+                    emergency@zehrasec.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-virus"></i>
+                        <span>ZehraSec</span>
+                    </div>
+                    <p>Elite cybersecurity solutions for the digital age.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                            <li><a href="custom-software.html">Custom Software</a></li>
+                            <li><a href="security-audits.html">Security Audits</a></li>
+                            <li><a href="training.html">Training</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <ul>
+                            <li><a href="enterprise-security.html">Enterprise Security</a></li>
+                            <li><a href="fintech-solutions.html">FinTech Solutions</a></li>
+                            <li><a href="healthcare-security.html">Healthcare Security</a></li>
+                            <li><a href="government-sector.html">Government Sector</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ZehraSec. All rights reserved. | Securing the digital frontier.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .contact-method {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-method i {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            width: 30px;
+            margin-top: 0.5rem;
+        }
+        
+        .method-info h4 {
+            color: var(--primary-color);
+            font-family: 'Orbitron', monospace;
+            margin-bottom: 0.5rem;
+        }
+        
+        .method-info span {
+            display: block;
+            color: var(--text-secondary);
+            margin-bottom: 0.2rem;
+        }
+        
+        .form-options {
+            margin: 1.5rem 0;
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+        }
+        
+        .checkbox-label input[type="checkbox"] {
+            display: none;
+        }
+        
+        .checkmark {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border-color);
+            border-radius: 3px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .checkbox-label input[type="checkbox"]:checked + .checkmark {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .checkbox-label input[type="checkbox"]:checked + .checkmark::after {
+            content: '✓';
+            position: absolute;
+            color: var(--bg-primary);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+        }
+        
+        .offices-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .office-card {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .office-card:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .office-icon i {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .office-card h3 {
+            font-family: 'Orbitron', monospace;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .office-location {
+            color: var(--primary-color);
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+        
+        .office-details {
+            text-align: left;
+        }
+        
+        .office-details p {
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+        
+        .office-details strong {
+            color: var(--text-primary);
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+        }
+        
+        .faq-item {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .faq-item h3 {
+            font-family: 'Orbitron', monospace;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .faq-item p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .offices-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
